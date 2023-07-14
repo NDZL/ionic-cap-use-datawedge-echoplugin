@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
+  btnCount=0;
+  btnClicked(){
+
+    this.btnCount++;
+
+    console.log('NDZL tab2.page.html / button value='+this.btnCount);
+  }
 
 }
